@@ -1,11 +1,18 @@
-
 {
   "userSuccess": {
-    "username": "Elda_Ankunding92",
+    "username": "Lennie57",
     "password": "s3cret"
   },
   "userFail": {
     "username": "test",
     "password": "test"
+  },
+
+  "userTransaction": {
+    "sender": "Lennie57",
+    "recipient": "Aryanna Bergnaum",
+    "password": "s3cret",
+    "amount": "100.00",
+    "description": "QA Test Payment"
   }
 }

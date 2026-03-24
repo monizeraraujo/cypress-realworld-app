@@ -54,3 +54,31 @@ Inserir um dado no campo "Password" com pelo menos 4 caracteres.
 Inserir um dado no campo "Confirm Password" que seja idêntico ao campo "Password".
 Clicar no botão "Sign Up".
 Resultado Esperado: Espera-se que o usuário não consiga clicar no botão até que o dado "Username" seja preenchido, e é esperado que apareça a mensagem "Username is required" em baixo do campo que deve ser preenchido.
+
+
+
+Caso de Teste 5.0: Autenticação de transferência bancária
+Título: Realizar uma transferência de pagamento com sucesso. 
+Pré-condição: Estar autenticado no sistema e possuir saldo disponível na conta. 
+Passos:
+Clicar no botão "New" de cor verde no canto lateral direito da tela.
+Selecionar um usuário da lista de contatos.
+Inserir um valor numérico no campo "Amount", garantindo que o valor seja menor que o saldo atual. 
+Inserir uma mensagem no campo "Add a note".
+Clicar no botão "Pay"
+Resultado Esperado: 
+Espera-se a exibição da mensagem de sucesso "Transaction Submitted", o saldo do usuário deve ser atualizado subtraindo o valor que foi enviado e a transação deve aparecer no feed "Mine".
+
+
+
+Caso de Teste 6.0: Tentar realizar uma transferência com saldo insuficiente. 
+Título: Validar impedimento de envio da transferência quando o valor excede o saldo. 
+Pré-condição: Estar autenticado no sistema 
+Passos:
+Clicar no botão "New" de cor verde no canto lateral direito da tela.
+Selecionar um usuário da lista de contatos.
+Inserir um valor numérico no campo "Amount", garantindo que o valor seja maior que o saldo atual. 
+Inserir uma mensagem no campo "Add a note".
+Clicar no botão "Pay"
+Resultado Esperado: 
+Espera-se que o sistema impeça a finalização da transação e apareça uma mensagem de erro. 

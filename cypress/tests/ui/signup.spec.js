@@ -26,7 +26,7 @@ describe("New user registration successful", () => {
   it("New user - Valid information", () => {
     cy.get(selectors.signupFirstnameField).type("Monize");
     cy.get(selectors.signupLastnameField).type("Araujo");
-    cy.get(selectors.signupUsernameField).type(dados.userSuccess.username);
+    cy.get(selectors.signupUsernameField).type('@MonizeAraujo');
     cy.get(selectors.signupPasswordField).type(dados.userSuccess.password);
     cy.get(selectors.signupConfirmPassword).type(dados.userSuccess.password);
     cy.get(selectors.loginButtonSignup).click();
