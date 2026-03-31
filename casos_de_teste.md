@@ -100,7 +100,7 @@ Pré-condição: Estar autenticado com um usuário sem nenhuma transação reali
 Passos:
 Criar um usuário novo
 Fazer login com usuário novo
-Passar pelas telas de widget e criar dados bancários 
+PCompletar o fluxo de Onboarding (Wizard), realizando o cadastro da conta bancária.
 Clicar no menu lateral ou na barra de navegação superior e clicar na aba "Mine".
 Observar o conteúdo central da página.
 Resultado Esperado: O sistema deve exibir uma mensagem de "No Transactions". 
