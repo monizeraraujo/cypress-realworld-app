@@ -82,3 +82,25 @@ Inserir uma mensagem no campo "Add a note".
 Clicar no botão "Pay"
 Resultado Esperado: 
 Espera-se que o sistema impeça a finalização da transação e apareça uma mensagem de erro. 
+
+
+
+Caso de Teste 7.0: Visualizar histórico de transações com sucesso.
+Título: Verificar a exibição da lista de transações realizadas.
+Pré-condição: Estar autenticado no sistema e possuir ao menos uma transação enviada ou recebida.
+Passos:
+Clicar no menu lateral ou na barra de navegação superior e clicar na aba "Mine".
+Verificar se a lista de transações está visível
+Resultado Esperado: O sistema deve carregar e exibir ao menos uma transação vinculada a conta do usuário logado. Espera-se pelo menos a validação de um dado como o nome do usuário.
+
+
+Caso de Teste 8.0: Visualizar histórico sem transações anteriores.
+Título: Validar a mensagem de "No Transactions" quando o usuário não possui histórico.
+Pré-condição: Estar autenticado com um usuário sem nenhuma transação realizada ou recebida.
+Passos:
+Criar um usuário novo
+Fazer login com usuário novo
+Passar pelas telas de widget e criar dados bancários 
+Clicar no menu lateral ou na barra de navegação superior e clicar na aba "Mine".
+Observar o conteúdo central da página.
+Resultado Esperado: O sistema deve exibir uma mensagem de "No Transactions". 

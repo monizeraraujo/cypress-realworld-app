@@ -13,6 +13,17 @@
     "recipient": "Aryanna Bergnaum",
     "password": "s3cret",
     "amount": "100.00",
-    "description": "QA Test Payment"
+    "description": "QA Test Payment",
+    "expectedUser": "Tony Wolf"
+  },
+
+  "userNoTransaction": {
+    "firstname": "VennyNize",
+    "lastname": "Nrk",
+    "username": "VennyNizeNrk",
+    "password": "s3cret",
+    "bankName": "Banco Inter",
+    "routingNumber": "123456789",
+    "accountNumber": "987654321"
   }
 }
